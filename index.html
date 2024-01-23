@@ -1,0 +1,1453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portfolio - Tariq Mehmood</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/user.png" rel="icon">
+  <link href="assets/img/user.png" rel="Tariq Mehmood">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Krub:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+    <script src="emailjs.js"></script>
+    <link rel="stylesheet" href="assets/css/variables.css">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+  <script>
+    // JavaScript function to download the resume
+    function downloadResume() {
+      // Replace 'YOUR_GITHUB_REPO_URL' with the actual URL of your resume on GitHub
+      var githubRepoUrl = 'https://github.com/TariqMehmood1004/my-resume/blob/main/Tariq%20Mehmood%20Resume.pdf';
+
+      // Create a temporary link element
+      var link = document.createElement('a');
+      link.href = githubRepoUrl;
+
+      // Set the download attribute to specify the filename
+      link.download = 'resume.pdf';
+
+      // Append the link to the document
+      document.body.appendChild(link);
+
+      // Trigger a click event to start the download
+      link.click();
+
+      // Remove the link from the document
+      document.body.removeChild(link);
+    }
+
+    // Attach the function to the button click event
+    document.addEventListener('DOMContentLoaded', function () {
+      document.querySelector('.btn-get-started').addEventListener('click', function (event) {
+        event.preventDefault();
+        downloadResume();
+      });
+    });
+  </script>
+
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+<script type="text/javascript">
+   (function(){
+      emailjs.init("G_0bvMt_sK1iEcptn");
+   })();
+</script>
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top" style="background: #fff;">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <h1 class="logo"><a href="index.html">Portfolio.</a></h1>
+      <!-- Uncomment below if you prefer to use an image logo -->
+      <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#services">Technologies</a></li>
+          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="getstarted scrollto rounded-pill" href="https://tariqmehmood1004.github.io/download-tumigo/">Get
+              Started With Tumigo</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+
+    <div class="container d-flex sm:flex flex-column align-items-center justify-content-center" data-aos="fade-up">
+      <div class="hero-container w-[75%] d-flex flex-column align-items-center justify-content-center" data-aos="fade-up">
+        <h1 class="hero-title text-center mb-4 font-weight-bold">Tariq Mehmood</h1>
+        <p>
+          I'm a dynamic Software Engineer with a flair for innovation and a passion for cutting-edge technologies.
+          I have Proficient in C#, ASP.NET, Flutter, and adept in the realms of Data Science with Python and R,
+          and have extensive experience in the field. I brings a unique blend of programming skills and a keen eye for
+          detail.
+          I thrives on pushing the boundaries of technology and is equally dedicated to sharing knowledge as a
+          native speaker and development teacher.
+          I commitment to transforming ideas into impactful solutions reflects his unwavering dedication to the
+          ever-evolving field of software engineering.
+        </p>
+        <a href="#downloadResume"
+          class="btn-get-started scrollto d-flex align-items-center justify-content-center mt-4 rounded-pill">Download
+          Resume</a>
+      </div>
+      <img src="assets/img/user-3.svg" class="img-fluid hero-img w-[450px]" alt="" data-aos="zoom-in"
+        data-aos-delay="150">
+    </div>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row no-gutters">
+          <div class="content col-xl-5 d-flex align-items-stretch" data-aos="fade-right">
+            <div class="content px-2">
+              <h3>Professional Mentor</h3>
+              <p>
+                As a dynamic Software Engineer with a flair for innovation and a passion for cutting-edge
+                technologies, I bring a unique blend of programming skills and a keen eye for detail. Proficient in
+                C#, ASP.NET, Flutter, ReactJS, React Native, Xamarin, Django, Laravel, Php, and experienced in desktop
+                and mobile development. Skilled in Microsoft SQL Server, MySQL, NoSqlite, MongoDB, Python, and R. My
+                commitment to transforming ideas into impactful solutions reflects my unwavering dedication to the
+                ever-evolving field of software engineering.
+              </p>
+              <a href="#" class="about-btn">About us <i class="bx bx-chevron-right"></i></a>
+            </div>
+          </div>
+          <div class="col-xl-7 d-flex align-items-stretch" data-aos="fade-left">
+            <div class="icon-boxes d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx bx-location-plus"></i>
+                  <!-- <i class="bx bx-receipt"></i> -->
+                  <h4>Multan</h4>
+                  <p>I was recently working at kics (Kabeer Instititue of Computer Studies) as a teacher/professor.</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
+                  <i class="bx bx-location-plus"></i>
+                  <h4>Vehari</h4>
+                  <p>My graduation done from COMSATS University Islamabad, Vehari campus</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
+                  <i class="bx bx-shield"></i>
+                  <h4>Standard Mentor</h4>
+                  <p>I am a YouTuber influencer &amp; professional</p>
+                </div>
+                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
+                  <i class="bx bx-shield"></i>
+                  <h4>Proficient</h4>
+                  <p>Expertise in multi-domains</p>
+                </div>
+              </div>
+            </div><!-- End .content-->
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Clients Section ======= -->
+    <section id="clients" class="clients">
+      <div class="container" data-aos="zoom-in">
+
+        <div class="row">
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/kics-2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/cui.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/emerson.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/youtube.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/python.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
+            <img src="assets/img/vs.png" class="img-fluid" alt="">
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features" data-aos="fade-up">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Features</h2>
+          <p>
+            Welcome to the world of cutting-edge technology, where innovation meets expertise! I am a dynamic Software
+            Engineer,
+            proficient in a diverse array of technologies, and I bring a unique blend of programming skills coupled with
+            a keen
+            eye for detail.
+
+            My skill set spans a wide spectrum, including C#, ASP.NET, Flutter, ReactJS, React Native, Xamarin, Desktop
+            development, Mobile Development (iOS and Android), Django, Laravel, PHP, Microsoft SQL Server, MySQL,
+            NoSqlite,
+            MongoDB, and adept knowledge in Python and R. Whether it's crafting robust desktop applications or
+            developing seamless
+            mobile experiences, I have the expertise to transform ideas into impactful solutions.
+
+          </p>
+        </div>
+
+        <div class="row content">
+          <div class="col-md-5 relative" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/features-1.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-4" data-aos="fade-left" data-aos-delay="100">
+            <h3>Android Studio Development</h3>
+            <p class="fst-italic mb-4">
+              Android Studio is the official integrated development environment for Google's Android operating system,
+              built on JetBrains' IntelliJ IDEA software and designed specifically for Android development.
+            </p>
+            <ul>
+              <li><i class="bi bi-check"></i> Our development with Android Studio is proficient and experienced.</li>
+              <li><i class="bi bi-check"></i> Flutter development</li>
+              <li><i class="bi bi-check"></i> Kotlin development</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row content">
+          <div class="col-md-5 order-1 order-md-2" data-aos="fade-left">
+            <img src="assets/img/features-2.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
+            <h3>Visual Studio &amp; Visual Studio Code</h3>
+            <p class="fst-italic">
+              Visual Studio is an integrated development environment from Microsoft.
+              It is used to develop computer programs including websites, web apps, web services and mobile apps.
+            </p>
+            <ul>
+              <li><i class="bi bi-check"></i> Our development with Visual Studio is proficient and experienced.</li>
+              <li><i class="bi bi-check"></i> Flutter development</li>
+              <li><i class="bi bi-check"></i> Kotlin development</li>
+              <li><i class="bi bi-check"></i> Xamarin development</li>
+              <li><i class="bi bi-check"></i> Desktop development</li>
+              <li><i class="bi bi-check"></i> Mobile development</li>
+              <li><i class="bi bi-check"></i> Web development</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row content">
+          <div class="col-md-5" data-aos="fade-right">
+            <img src="assets/img/features-3.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-5" data-aos="fade-left">
+            <h3>Git &amp; Github</h3>
+            <p>
+              GitHub, Inc. is an AI-powered developer platform that allows developers to create, store, manage and share
+              their code.
+            </p>
+            <ul>
+              <li><i class="bi bi-check"></i> My experience with Git and GitHub is excellent.</li>
+              <li><i class="bi bi-check"></i> Work with GitHub</li>
+              <li><i class="bi bi-check"></i> Work with Git</li>
+              <li><i class="bi bi-check"></i> 54+ Projects</li>
+              <li><i class="bi bi-check"></i> 100+ Commits</li>
+              <li><i class="bi bi-check"></i> 50+ Stars</li>
+              <li><i class="bi bi-check"></i> 10+ forks</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row content">
+          <div class="col-md-5 order-1 order-md-2" data-aos="fade-left">
+            <img src="assets/img/features-4.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-md-7 pt-5 order-2 order-md-1" data-aos="fade-right">
+            <h3>Python Development</h3>
+            <p class="fst-italic">
+              Python is a high-level, general-purpose programming language.
+              Its design philosophy emphasizes code readability with the use of significant indentation.
+            </p>
+            <ul>
+              <li><i class="bi bi-check"></i> My experience with Python is excellent.</li>
+              <li><i class="bi bi-check"></i> Work with Python</li>
+              <li><i class="bi bi-check"></i> Learn Python</li>
+              <li><i class="bi bi-check"></i> 100+ Projects</li>
+              <li><i class="bi bi-check"></i> Python based Tumigo Language</li>
+              <li><i class="bi bi-check"></i> Django Framework</li>
+              <li><i class="bi bi-check"></i> Django &amp; MongoDB</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Steps Section ======= -->
+    <section id="steps" class="steps">
+      <div class="container">
+
+        <div class="row no-gutters" data-aos="fade-up">
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
+            <span>01</span>
+            <h4>Goto Github </h4>
+            <p>Download Tumigo from https://tariqmehmood1004.github.io/download-tumigo</p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
+            <span>02</span>
+            <h4>Zip download</h4>
+            <p>
+              Download Tumigo and extract it.
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
+            <span>03</span>
+            <h4>Install Python interpreter</h4>
+            <p>
+              Install Python interpreter &amp; run Tumigo
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
+            <span>04</span>
+            <h4>Tumigo overview</h4>
+            <p>
+              Welcome to Tumigo, your gateway to a simpler and more powerful coding experience.
+              Tumigo is designed with the philosophy of making coding accessible to all, combining ease of use with
+              robust capabilities.
+            </p>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="200">
+            <span>05</span>
+            <h4>Hello World</h4>
+            <pre><code>ptr("Hello Word!")</code></pre>
+          </div>
+
+          <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="300">
+            <span>06</span>
+            <h4>Variables</h4>
+            <pre><code>name = "Tariq"<br>ptr(name)</code></pre>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Steps Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services border border-x-0 border-y-2" data-aos="fade-up">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title text-center">
+          <h2>Technologies</h2>
+          <p>
+            My skill set spans a wide spectrum, including C#, ASP.NET, Flutter, <br>
+            ReactJS, React Native, Xamarin, Desktop development, Mobile Development (iOS and Android), <br>
+            Django, Laravel, PHP, Microsoft SQL Server, MySQL, NoSqlite, MongoDB, and adept knowledge in Python and R.<br>
+            Whether it's crafting robust desktop applications or developing seamless mobile experiences,<br>
+            I have the expertise to transform ideas into impactful solutions.<br>
+          </p>
+        </div>
+
+        <div class="row my-2">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-python"></i></div>
+              <h4 class="title"><a href="">Python</a></h4>
+              <p class="description">Intermediate Python experience </p>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bxl-c-plus-plus'></i></div>
+              <h4 class="title"><a href="">C++</a></h4>
+              <p class="description">Desktop Development with C++</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4 class="title"><a href="">C#</a></h4>
+              <p class="description"> C# Development with ASP.NET</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4 class="title"><a href="">Flutter</a></h4>
+              <p class="description">Flutter Development </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row my-2">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bxl-django'></i></div>
+              <h4 class="title"><a href="">Django</a></h4>
+              <p class="description">Intermediate Python experience & web development </p>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bxl-javascript' ></i></div>
+              <h4 class="title"><a href="">JavaScript</a></h4>
+              <p class="description">JavaScript Development</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bxl-react' ></i></div>
+              <h4 class="title"><a href="">ReactJS</a></h4>
+              <p class="description"> ReactJS Development</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bxl-php' ></i></div>
+              <h4 class="title"><a href="">Php</a></h4>
+              <p class="description">PHP Development </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row my-2">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bxl-figma' ></i></div>
+              <h4 class="title"><a href="">Figma</a></h4>
+              <p class="description">UI/UX Designing </p>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bxl-adobe' ></i></div>
+              <h4 class="title"><a href="">Adobe XD</a></h4>
+              <p class="description">UI/UX Designing</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bxl-react' ></i></div>
+              <h4 class="title"><a href="">React Native</a></h4>
+              <p class="description"> Cross Platform Development</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="fab fa-laravel"></i></div>
+              <h4 class="title"><a href="">Laravel</a></h4>
+              <p class="description">PHP Framework Development </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row my-2">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bxl-nodejs' ></i></div>
+              <h4 class="title"><a href="">NodeJS</a></h4>
+              <p class="description">Web development </p>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bxl-mongodb' ></i></div>
+              <h4 class="title"><a href="">MongoDB</a></h4>
+              <p class="description">Realtime Database System</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="fa-solid fa-server"></i></div>
+              <h4 class="title"><a href="">Microsoft Sql Server</a></h4>
+              <p class="description"> Loca Database System </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bxl-firebase' ></i></div>
+              <h4 class="title"><a href="">Firebase</a></h4>
+              <p class="description">PHP Framework Development </p>
+            </div>
+          </div>
+
+        </div>
+
+
+        <div class="row my-2">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="fa-solid fa-database"></i></div>
+              <h4 class="title"><a href="">DBMS</a></h4>
+              <p class="description">Proficient in many DBMS</p>
+            </div>
+          </div>
+
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up"
+            data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="fa-solid fa-m"></i></div>
+              <h4 class="title"><a href="">MEARN Stack</a></h4>
+              <p class="description">Working with mearn & with learning</p>
+            </div>
+          </div>
+
+        </div>
+
+        
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+            consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+            in iste officiis commodi quidem hic quas.</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 2</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 2</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 2</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>App 3</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 1</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Card 3</h4>
+                <p>Card</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Web 3</h4>
+                <p>Web</p>
+                <div class="portfolio-links">
+                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Testimonials</h2>
+          <p>
+            As a dynamic Software Engineer with a relentless flair for innovation, I bring a passion for exploring and
+            mastering cutting-edge technologies to every project. Proficient in C#, ASP.NET, and Flutter, I navigate the
+            realms of Data Science with expertise in Python and R. My extensive experience in the field has honed not
+            only my programming skills but also a keen eye for detail.
+
+            What sets me apart is a unique blend of technical prowess and a commitment to pushing the boundaries of
+            technology. Whether it's developing impactful solutions or imparting knowledge as a native speaker and
+            development teacher, I approach each challenge with enthusiasm and dedication.
+
+            My portfolio is a testament to a journey dedicated to transforming ideas into tangible, game-changing
+            solutions. I invite you to explore the intersection of innovation and precision in the ever-evolving field
+            of software engineering through my work.
+          </p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  As a dynamic Software Engineer, and a passion for cutting-edge technologies.
+                  Proficient in C#, ASP.NET, Flutter, ReactJS, React Native,
+                  Xamarin, Django, Laravel, Php, and experienced.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/user-2.png" class="testimonial-img" alt="">
+                <h3>Tariq Mehmood</h3>
+                <h4>Ceo &amp; Founder ; Full Stack Developer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
+                  tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/team/team-2.jpg" class="testimonial-img" alt="">
+                <h3>Makia Mai</h3>
+                <h4>ML Engineer &amp; UI/UX Designer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
+                  minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Usama Mushtaq</h3>
+                <h4>Mobile Developer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
+                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>Rana Zeeshan Ali</h3>
+                <h4>Frontend Developer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Team</h2>
+          <p>
+            We are a dynamic team of four individuals, each contributing unique expertise to our collaborative efforts: <br>
+            <ul class="faq-list w-full p-0 m-0 list-disc d-flex flex-col gap-2 text-justify text-sm text-gray-500 ">
+              <li>Tariq Mehmood, our Full Stack developer, brings proficiency in C#, ASP.NET, Flutter, ReactJS, React
+                Native, Xamarin, Django, Laravel, Php, and extensive experience in desktop and mobile development.
+              </li>
+            
+              <li>Makia Mai serves as our ML Engineer & UI/UX Designer, combining machine learning expertise with a keen eye
+                for design, ensuring innovative and user-friendly solutions.
+              </li>
+            
+              <li>Usama Mushtaq, our Mobile Developer, specializes in crafting mobile applications with a focus on
+                efficiency and
+                functionality, contributing to our comprehensive skill set.
+            
+                - Rana Zeeshan Ali, our Frontend developer, adds the finishing touches to our projects with expertise in
+                creating
+                seamless and visually appealing user interfaces.</li>
+            
+              <li>Rana Zeeshan Ali, our Frontend developer, adds the finishing touches to our projects with expertise in
+                creating
+                seamless and visually appealing user interfaces.</li>
+            </ul>
+            Together, we form a well-rounded team dedicated to pushing technological boundaries and transforming ideas
+            into impactful solutions in the dynamic field of software engineering.
+          </p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <img src="assets/img/user-3.svg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Tariq Mehmood</h4>
+                  <span>CEO &amp; Founder ; Full Stack Developer</span>
+                </div>
+                <div class="social">
+                  <a href="https://twitter.com/TariqMe58571569"><i class="bi bi-twitter"></i></a>
+                  <a href="https://github.com/TariqMehmood1004"><i class="bi bi-github"></i></a>
+                  <a href="https://www.instagram.com/i__am__tariq__mehmood/"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.linkedin.com/in/tariq-mehmood-3ab013254/"><i class="bi bi-linkedin"></i></a>
+                  <a href="https://www.threads.net/@i__am__tariq__mehmood"><i class="bi bi-threads"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <img src="assets/img/zeeshan.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Rana Zeeshan Ali</h4>
+                  <span>Frontend Developer</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <img src="assets/img/usama.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Usama Mushtaq</h4>
+                  <span>Mobile Developer</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="member">
+              <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Makia Mai</h4>
+                  <span>ML Engineer & UI/UX Designer</span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Team Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Project Pricing</h2>
+          <p>
+            I offer a range of pricing plans to suit your needs. <br>
+            Whether you're looking for a simple one-time fee or a recurring monthly fee, I can help. <br>
+            Let me know what you're looking for and I'll get back to you as soon as possible. <br>
+          </p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <h3>Basic Requirements</h3>
+              <h4><sup>$</sup>299<span> / project</span></h4>
+              <ul>
+                <li>Actors: Admin, &amp; User</li>
+                <li>Normal requirements</li>
+                <li>Dashboard</li>
+                <li class="na">Admin Dashboard Pro</li>
+                <li class="na">User Dashboard Pro</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
+            <div class="box featured">
+              <h3>Business Requirements</h3>
+              <h4><sup>$</sup>999<span> / project</span></h4>
+              <ul>
+                <li>Actors: Admin, &amp; User</li>
+                <li>Normal requirements</li>
+                <li>Dashboard</li>
+                <li class="">Admin Dashboard <span class="btn btn-secondary btn-sm">Pro</span></li>
+                <li class="">User Dashboard <span class="btn btn-secondary btn-sm">Pro</span></li>
+                <li class="">Free Hosting <span class="btn btn-secondary btn-sm">1-Year</span></li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="box">
+              <h3>Advanced Requirements</h3>
+              <h4><sup>$</sup>1499<span> / project</span></h4>
+              <ul>
+                <li>Actors: Admin, &amp; User</li>
+                <li>Normal requirements</li>
+                <li>Dashboard</li>
+                <li class="">Admin Dashboard <span class="btn btn-secondary btn-sm">Pro</span></li>
+                <li class="">User Dashboard <span class="btn btn-secondary btn-sm">Pro</span></li>
+                <li class="">Free Hosting <span class="btn btn-secondary btn-sm">1-Year</span></li>
+                <li class="">CRM <span class="btn btn-secondary btn-sm">Pro</span></li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="#" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+    <section class="bg-slate-100">
+      <div class="relative max-w-screen-2xl px-4 mx-auto sm:px-6 lg:px-8">
+        <div class="max-w-lg mx-auto overflow-hidden rounded-lg pricing-box lg:max-w-none lg:flex">
+          <div class="px-6 py-8 bg-white dark:bg-gray-800 lg:flex-shrink-1 lg:p-12">
+            <h3 class="text-2xl font-extrabold leading-8 text-gray-900 sm:text-3xl sm:leading-9 dark:text-white">
+              Zero Commission
+            </h3>
+            <p class="mt-6 text-base leading-6 text-gray-500 dark:text-gray-200">
+              Start selling online for free with all the features you need to launch your local delivery and pick-up
+              service, nothing more. We don&#x27;t charge commission or monthly fees, keep all your margin.
+            </p>
+            <div class="mt-8">
+              <div class="flex items-center">
+                <h4
+                  class="flex-shrink-0 pr-4 text-sm font-semibold leading-5 tracking-wider text-indigo-600 uppercase bg-white dark:bg-gray-800">
+                  What&#x27;s included
+                </h4>
+                <div class="flex-1 border-t-2 border-gray-200">
+                </div>
+              </div>
+              <ul class="mt-8 lg:grid lg:grid-cols-2 lg:col-gap-8 lg:row-gap-5">
+                <li class="flex items-start lg:col-span-1">
+                  <div class="flex-shrink-0">
+                    <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor"
+                      fill="#10b981" viewBox="0 0 1792 1792">
+                      <path
+                        d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                    All illimited components
+                  </p>
+                </li>
+                <li class="flex items-start lg:col-span-1">
+                  <div class="flex-shrink-0">
+                    <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor"
+                      fill="#10b981" viewBox="0 0 1792 1792">
+                      <path
+                        d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                    Own custom Tailwind styles
+                  </p>
+                </li>
+                <li class="flex items-start lg:col-span-1">
+                  <div class="flex-shrink-0">
+                    <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor"
+                      fill="#10b981" viewBox="0 0 1792 1792">
+                      <path
+                        d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                    Unlimited Templates
+                  </p>
+                </li>
+                <li class="flex items-start lg:col-span-1">
+                  <div class="flex-shrink-0">
+                    <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor"
+                      fill="#10b981" viewBox="0 0 1792 1792">
+                      <path
+                        d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                    Free premium dashboard
+                  </p>
+                </li>
+                <li class="flex items-start lg:col-span-1">
+                  <div class="flex-shrink-0">
+                    <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor"
+                      fill="#10b981" viewBox="0 0 1792 1792">
+                      <path
+                        d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                    Best ranking
+                  </p>
+                </li>
+                <li class="flex items-start lg:col-span-1">
+                  <div class="flex-shrink-0">
+                    <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor"
+                      fill="#10b981" viewBox="0 0 1792 1792">
+                      <path
+                        d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                    Prenium svg
+                  </p>
+                </li>
+                <li class="flex items-start lg:col-span-1">
+                  <div class="flex-shrink-0">
+                    <svg class="w-6 h-6 mr-2" xmlns="http://www.w3.org/2000/svg" width="6" height="6" stroke="currentColor"
+                      fill="#10b981" viewBox="0 0 1792 1792">
+                      <path
+                        d="M1412 734q0-28-18-46l-91-90q-19-19-45-19t-45 19l-408 407-226-226q-19-19-45-19t-45 19l-91 90q-18 18-18 46 0 27 18 45l362 362q19 19 45 19 27 0 46-19l543-543q18-18 18-45zm252 162q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                    My wife
+                  </p>
+                </li>
+              </ul>
+            </div>
+            <div class="mt-8">
+              <div class="flex items-center">
+                <h4
+                  class="flex-shrink-0 pr-4 text-sm font-semibold leading-5 tracking-wider text-indigo-600 uppercase bg-white dark:bg-gray-800">
+                  &amp; What&#x27;s not
+                </h4>
+              </div>
+              <ul class="mt-8 lg:grid lg:grid-cols-2 lg:col-gap-8 lg:row-gap-5">
+                <li class="flex items-start lg:col-span-1">
+                  <div class="flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" class="w-6 h-6 mr-2" fill="red"
+                      viewBox="0 0 1792 1792">
+                      <path
+                        d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                    No Contracts. No monthly, setup, or additional payment processor fees
+                  </p>
+                </li>
+                <li class="flex items-start lg:col-span-1">
+                  <div class="flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="6" height="6" class="w-6 h-6 mr-2" fill="red"
+                      viewBox="0 0 1792 1792">
+                      <path
+                        d="M1277 1122q0-26-19-45l-181-181 181-181q19-19 19-45 0-27-19-46l-90-90q-19-19-46-19-26 0-45 19l-181 181-181-181q-19-19-45-19-27 0-46 19l-90 90q-19 19-19 46 0 26 19 45l181 181-181 181q-19 19-19 45 0 27 19 46l90 90q19 19 46 19 26 0 45-19l181-181 181 181q19 19 45 19 27 0 46-19l90-90q19-19 19-46zm387-226q0 209-103 385.5t-279.5 279.5-385.5 103-385.5-103-279.5-279.5-103-385.5 103-385.5 279.5-279.5 385.5-103 385.5 103 279.5 279.5 103 385.5z">
+                      </path>
+                    </svg>
+                  </div>
+                  <p class="ml-3 text-sm leading-5 text-gray-700 dark:text-gray-200">
+                    No 2-week on-boarding, it takes 20 minutes!
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div
+            class="px-6 py-8 text-center bg-gray-50 dark:bg-gray-700 lg:flex-shrink-0 lg:flex lg:flex-col lg:justify-center lg:p-12">
+            <p class="text-lg font-bold leading-6 text-gray-900 dark:text-white">
+              Free
+            </p>
+            <div
+              class="flex items-center justify-center mt-4 text-5xl font-extrabold leading-none text-gray-900 dark:text-white">
+              <span>
+                $0/mo
+              </span>
+            </div>
+            <p class="mt-4 text-sm leading-5">
+              <span class="block font-medium text-gray-500 dark:text-gray-400">
+                Card payments:
+              </span>
+              <span class="inline-block font-medium text-gray-500  dark:text-gray-400">
+                2.9% + 20p per transaction
+              </span>
+            </p>
+            <div class="mt-6">
+              <div class="rounded-md shadow">
+                <button type="button"
+                  class="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">
+                  Create your store
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    </section>
+
+
+    <!-- ======= Frequently Asked Questions Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Frequently Asked Questions</h2>
+        </div>
+
+        <ul class="faq-list">
+
+          <li>
+            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">
+              How can I download your resume from GitHub? <i class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                To download my resume, click on the "Download Resume" link. It will initiate the download process, and you'll get a copy of my resume in PDF format.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">
+              The download link opens in a new tab; can I change this behavior? 
+              <i class="bi bi-chevron-down icon-show"></i><i
+                class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                If the link opens in a new tab, please ensure that there's no JavaScript or other scripts on the page forcing a new tab. By default, the link should open in the same tab. You can check the HTML code for the link and remove any target="_blank" attribute to ensure it opens in the same tab.              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">
+              How do I get started with Tumigo?<i class="bi bi-chevron-down icon-show"></i><i
+                class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                To get started with Tumigo, follow this link. It will take you to the necessary resources and information to begin your journey with Tumigo.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">
+              Is there a specific filename for your resume when downloaded?<i class="bi bi-chevron-down icon-show"></i><i
+                class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                When you download my resume, the filename is set to "Tariq Mehmood Resume.pdf" by default. You can change the filename after downloading if needed.
+              </p>
+            </div>
+          </li>
+
+          <li>
+            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">
+              What if I encounter issues downloading your resume or accessing Tumigo resources?<i class="bi bi-chevron-down icon-show"></i><i
+                class="bi bi-chevron-up icon-close"></i></div>
+            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+              <p>
+                If you encounter any issues, please ensure that your internet connection is stable. If problems persist, you can reach out to me for assistance through [contact information].
+              </p>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+    </section><!-- End Frequently Asked Questions Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <i class="bx bx-map"></i>
+                  <h3>Our Address</h3>
+                  <p>New Chungi No. 14 Bahawalpur Road Bypass Multan, Punjab, Pakistan</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>johnbrrighte7427206@gmail.com<br>jb7427086@gmail.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call Us</h3>
+                  <p>+92 326 4848783<br>+92 307 7427086</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6 mt-4 mt-md-0">
+            <div class="php-email-form" id="messageForm">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="msgUserName" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="msgUserEmail" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="msgUserSubject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" id="msgUserMessage" required></textarea>
+              </div>
+              <div class="text-center"><button type="button" class="btn btn-primary btn-md mt-3 bg-[#4949CE]" onclick="sendMessage()">Send Message</button></div>
+            </div>        
+          </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Address</h3>
+            <p>
+              New Chungi No. 14 <br>
+              Bahawalpur Bypass<br>
+              Road Multan, Pakistan <br><br>
+              <strong>Phone:</strong> <br> +92 326 4848783 <br> +92 307 7427086 <br>
+              <strong>Email:</strong> <br> johnbrrighte7427206@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="#!">Mobile Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#!">Web Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#!">Desktop Development</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#!">Web Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#!">UI/UX Designing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#!">Documentation</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#!">Thesis Writing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#!">Product Management</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#!">Digital Marketing</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#!">Graphic Design</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-6 footer-newsletter">
+            <h4>Join Our Newsletter</h4>
+            <p>Enter your email to subscribe us, it will be updated soon and with more encourage.</p>
+            <div id="subscribeForm" class="my-3">
+              <input type="email" name="email" id="emailInput" class="form-control" placeholder="Enter Email">
+              <button type="submit" value="Subscribe" 
+                class="btn btn-primary btn-sm mt-3 text-[#4949CE]" onclick="sendMail()">Subscribe
+              </button>
+            </div>        
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Tumigo</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Developed &amp; Designed by <a href="index.html">Tariq Mehmood</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
