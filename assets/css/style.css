@@ -813,7 +813,7 @@ section {
 .portfolio #portfolio-flters li {
   cursor: pointer;
   display: inline-block;
-  padding: 8px 15px 10px 15px;
+  padding: 10px 15px 10px 15px;
   font-size: 14px;
   font-weight: 600;
   line-height: 1;
@@ -821,7 +821,8 @@ section {
   color: #444444;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
-  border-radius: 3px;
+  border-radius: 50rem;
+  background-color:#F1F1F1;
 }
 
 .portfolio #portfolio-flters li:hover,
