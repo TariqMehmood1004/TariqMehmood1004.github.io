@@ -63,21 +63,12 @@
 
     // Attach the function to the button click event
     document.addEventListener('DOMContentLoaded', function () {
-      adjustIframeHeight('resume-iframe');
-            adjustIframeHeight('content-letter-iframe');
-            adjustIframeHeight('additional-letter-iframe');
       document.querySelector('.btn-get-started').addEventListener('click', function (event) {
         event.preventDefault();
         downloadResume();
       });
     });
     
-        function adjustIframeHeight(iframeId) {
-            var iframe = document.getElementById(iframeId);
-            iframe.onload = function() {
-                iframe.style.height = iframe.contentWindow.document.body.scrollHeight + 'px';
-            }
-        }
     </script>
 
 <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
